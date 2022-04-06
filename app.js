@@ -32,17 +32,19 @@ function compareNumbers() {
     let c = document.getElementById("counter")
 
     if (a != b) {
-        z.innerHTML = "Numbers nohjhj   hj  hjkhubij;kl'? same. Computer got " + b + ", and user got " + a;
+        z.innerHTML = "Numbers no same. Computer got " + b + ", and user got " + a;
         z.style.color = "#bd171f";
         z.style.backgroundColor = "#5e0000";
         z.style.padding = "20px";
         z.style.textAlign = "center";
+        z.style.fontFamily = "'Lobster', cursive"
         counter++;
         c.innerHTML = "You have tried " + counter + " times.";
         c.style.color = "#3094D6";
         c.style.backgroundColor = "#1E203B";
         c.style.padding = "20px";
         c.style.textAlign = "center";
+        c.style.fontFamily = "'Lobster', cursive"
         document.querySelector("body").style.backgroundColor = "#2A1334";
 
     } else if ( a == b) {
@@ -51,12 +53,14 @@ function compareNumbers() {
         z.style.backgroundColor = "#012E00";
         z.style.padding = "20px";
         z.style.textAlign = "center";
+        z.style.fontFamily = "'Lobster', cursive"
         counter++;
         c.innerHTML = "You have tried " + counter + " times to get it right.";
         c.style.color = "#3094D6";
         c.style.backgroundColor = "#1E203B";
         c.style.padding = "20px";
         c.style.textAlign = "center";
+        c.style.fontFamily = "'Lobster', cursive"
         document.querySelector("body").style.backgroundColor = "#2A1334";
     }
 
